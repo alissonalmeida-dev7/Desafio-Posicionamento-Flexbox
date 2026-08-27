@@ -62,3 +62,13 @@ img {
 .grupo-maior {
     width: 518px;
 }
+
+.itens-extremidades-novo {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.roxo {
+    background-color: #e8b6ff;
+}
