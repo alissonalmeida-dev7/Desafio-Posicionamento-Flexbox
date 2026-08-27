@@ -6,32 +6,26 @@ img {
     width: 110px;
 }
 
-.itens-extremidades {
+.itens-centro, .itens-espacados, .itens-direita, .itens-extremidades, .itens-extremidades-novo, .itens-vertical {
+    margin-bottom: 50px;
     background-color: aqua;
     display: flex;
+}
+
+.itens-extremidades {
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 .itens-espacados {
-    background-color: aqua;
-    display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
 }
 
 .itens-centro {
-    background-color: aqua;
-    display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
 
 .itens-direita {
-    background-color: aqua;
-    display: flex;
     justify-content: flex-end;
-    margin-bottom: 50px;
 }
 
 .amarelo {
@@ -40,19 +34,13 @@ img {
 
 .grupo-espacado {
     width: 960px;
-
-    display: flex;
     justify-content: space-between;
 }
 
 .itens-vertical {
     height: 960px;
-    background-color: aqua;
-
-    display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-bottom: 50px;
 }
 
 .grupo-menor {
@@ -64,9 +52,8 @@ img {
 }
 
 .itens-extremidades-novo {
-    background-color: aqua;
-    display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .roxo {
